@@ -6,7 +6,7 @@ namespace DapperWebApi;
 
 public static class Utilidades
 {
-    public static EmpleadoDTO? convertirADTO(this Empleado e)
+    public static EmpleadoDTO convertirADTO(this Empleado e)
     {
         if (e != null)
         {
@@ -20,6 +20,7 @@ public static class Utilidades
 
         }
         return null;
+        
     }
 
 }

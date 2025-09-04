@@ -18,16 +18,18 @@ namespace DapperWebApi.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<EmpleadoDTO> GetEmpleados()
+        public async Task<IEnumerable<EmpleadoDTO?>> GetEmpleados()
         {
             // return _servicioEmpleado.GetEmpleados();
-            return _servicioEmpleado.ListarEmpleados().Select(e => e.convertirADTO());
+            var ListaEmpleados = (await _servicioEmpleado.ListarEmpleados()).Select(e => e.convertirADTO());
+            return ListaEmpleados;
+
         }
 
         [HttpGet("{CodEmpleado}")]
-        public ActionResult<EmpleadoDTO> GetEmpleado(string CodEmpleado)
+        public async Task<ActionResult<EmpleadoDTO>> GetEmpleado(string CodEmpleado)
         {
-            var empleado = _servicioEmpleado.ObtenerEmpleado(CodEmpleado).convertirADTO();
+            var empleado = (await _servicioEmpleado.ObtenerEmpleado(CodEmpleado)).convertirADTO();
             if (empleado is null)
             {
                 return NotFound();
@@ -36,49 +38,50 @@ namespace DapperWebApi.Controllers
         }
 
         [HttpPost]
-        public ActionResult<EmpleadoDTO> PostEmpleado(EmpleadoDTO e)
+        public async Task<ActionResult<EmpleadoDTO>> PostEmpleado(EmpleadoDTO e)
         {
             Empleado empleado = new Empleado
             {
                 // no es necesario cuando se trabaja con bd ya que se definio tipo de campo autoinc
                 // Id = _servicioEmpleado.GetEmpleados().Max(x => x.Id) + 1, 
                 Nombre = e.Nombre,
-                CodEmpleado = e.CodEmpleado,                
+                CodEmpleado = e.CodEmpleado,
                 Email = e.Email,
                 Edad = e.Edad,
                 fechaIngreso = DateTime.Now
             };
 
-            _servicioEmpleado.CrearEmpleado(empleado);
+            await _servicioEmpleado.CrearEmpleado(empleado);
+
             return empleado.convertirADTO();
         }
 
         [HttpPut]
-        public ActionResult<EmpleadoDTO> PutEmpleado(EmpleadoDTO e)
+        public async Task<ActionResult<EmpleadoDTO>> PutEmpleado(EmpleadoDTO e)
         {
-            var empleadoaux = _servicioEmpleado.ObtenerEmpleado(e.CodEmpleado);
+            var empleadoaux = await _servicioEmpleado.ObtenerEmpleado(e.CodEmpleado);
             if (empleadoaux is null)
             {
                 return NotFound();
             }
             empleadoaux.Nombre = e.Nombre;
-            empleadoaux.CodEmpleado = e.CodEmpleado;            
+            empleadoaux.CodEmpleado = e.CodEmpleado;
             empleadoaux.Email = e.Email;
             empleadoaux.Edad = e.Edad;
 
-            _servicioEmpleado.ActualizarEmpleado(empleadoaux);
+            await _servicioEmpleado.ActualizarEmpleado(empleadoaux);
             return e;
         }
 
         [HttpDelete]
-        public ActionResult DeleteEmpleado(string CodEmpleado)
+        public async Task<ActionResult> DeleteEmpleado(string CodEmpleado)
         {
-            var empleado = _servicioEmpleado.ObtenerEmpleado(CodEmpleado);
+            var empleado = await _servicioEmpleado.ObtenerEmpleado(CodEmpleado);
             if (empleado is null)
             {
                 return NotFound();
             }
-            _servicioEmpleado.EliminarEmpleado(CodEmpleado);
+            await _servicioEmpleado.EliminarEmpleado(CodEmpleado);
             return Ok();
 
         }

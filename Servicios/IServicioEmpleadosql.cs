@@ -5,10 +5,10 @@ namespace DapperWebApi.Servicios;
 
 public interface IServicioEmpleadosql
 {
-    public IEnumerable<Empleado> ListarEmpleados();
-    public Empleado ObtenerEmpleado(string CodEmpleado);
-    public void CrearEmpleado(Empleado e);
-    public void ActualizarEmpleado(Empleado e);
-    public void EliminarEmpleado(string CodEmpleado);
+    public Task<IEnumerable<Empleado>> ListarEmpleados();
+    public Task<Empleado> ObtenerEmpleado(string CodEmpleado);
+    public Task CrearEmpleado(Empleado e);
+    public Task ActualizarEmpleado(Empleado e);
+    public Task EliminarEmpleado(string CodEmpleado);
 
 }

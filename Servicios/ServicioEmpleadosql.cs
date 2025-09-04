@@ -17,13 +17,12 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
     {
         CadenaConexion = conex.CadenaConexionSQL;
     }
-
     private SqlConnection conexion()
     {
         return new SqlConnection(CadenaConexion);
     }
 
-    public Empleado ObtenerEmpleado(string CodEmpleado)
+    public async Task<Empleado> ObtenerEmpleado(string CodEmpleado)
     {
         //throw new NotImplementedException();
         SqlConnection sqlConexion = conexion();
@@ -34,7 +33,12 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
             sqlConexion.Open();
             var param = new DynamicParameters();
             param.Add("@CodEmpleado", CodEmpleado, DbType.String, ParameterDirection.Input, 4);
-            e = sqlConexion.QueryFirstOrDefault<Empleado>("ObtenerEmpleado", param, commandType: CommandType.StoredProcedure);
+            e = await sqlConexion.QueryFirstOrDefaultAsync<Empleado>("ObtenerEmpleado", param, commandType: CommandType.StoredProcedure);
+
+            if (e == null)
+            {
+                throw new KeyNotFoundException($"No se encontró un empleado con el código '{CodEmpleado}'.");
+            }
         }
         catch (Exception ex)
         {
@@ -48,7 +52,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         return e;
     }
 
-    public IEnumerable<Empleado> ListarEmpleados()
+    public async Task<IEnumerable<Empleado>> ListarEmpleados()
     {
         SqlConnection sqlConexion = conexion();
         List<Empleado> empleados = new List<Empleado>();
@@ -56,7 +60,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         try
         {
             sqlConexion.Open();
-            var r = sqlConexion.Query<Empleado>("ObtenerEmpleado", commandType: CommandType.StoredProcedure);
+            var r = await sqlConexion.QueryAsync<Empleado>("ObtenerEmpleado", commandType: CommandType.StoredProcedure);
             empleados = r.ToList();
         }
         catch (Exception ex)
@@ -71,7 +75,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         return empleados;
     }
 
-    public void CrearEmpleado(Empleado e)
+    public async Task CrearEmpleado(Empleado e)
     {
         SqlConnection sqlConexion = conexion();
 
@@ -84,7 +88,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
             param.Add("@Email", e.Email, DbType.String, ParameterDirection.Input, 255);
             param.Add("@Edad", e.Edad, DbType.Int32, ParameterDirection.Input);
             param.Add("@fechaIngreso", e.fechaIngreso, DbType.DateTime, ParameterDirection.Input);
-            sqlConexion.ExecuteScalar("CrearEmpleado", param, commandType: CommandType.StoredProcedure);
+            await sqlConexion.ExecuteScalarAsync("CrearEmpleado", param, commandType: CommandType.StoredProcedure);
 
         }
         catch (Exception ex)
@@ -99,7 +103,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
 
     }
 
-    public void ActualizarEmpleado(Empleado e)
+    public async Task ActualizarEmpleado(Empleado e)
     {
         SqlConnection sqlConexion = conexion();
 
@@ -110,8 +114,8 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
             param.Add("@Nombre", e.Nombre, DbType.String, ParameterDirection.Input, 500);
             param.Add("@CodEmpleado", e.CodEmpleado, DbType.String, ParameterDirection.Input, 4);
             param.Add("@Email", e.Email, DbType.String, ParameterDirection.Input, 255);
-            param.Add("@Edad", e.Edad, DbType.Int32, ParameterDirection.Input);            
-            sqlConexion.ExecuteScalar("ActualizarEmpleado", param, commandType: CommandType.StoredProcedure);
+            param.Add("@Edad", e.Edad, DbType.Int32, ParameterDirection.Input);
+            await sqlConexion.ExecuteScalarAsync("ActualizarEmpleado", param, commandType: CommandType.StoredProcedure);
 
         }
         catch (Exception ex)
@@ -126,15 +130,15 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
 
     }
 
-    public void EliminarEmpleado(string CodEmpleado)
+    public async Task EliminarEmpleado(string CodEmpleado)
     {
         SqlConnection sqlConexion = conexion();
-           try
+        try
         {
             sqlConexion.Open();
             var param = new DynamicParameters();
             param.Add("@CodEmpleado", CodEmpleado, DbType.String, ParameterDirection.Input, 4);
-            sqlConexion.ExecuteScalar("EliminarEmpleado", param, commandType: CommandType.StoredProcedure);
+            await sqlConexion.ExecuteScalarAsync("EliminarEmpleado", param, commandType: CommandType.StoredProcedure);
         }
         catch (Exception ex)
         {
@@ -145,7 +149,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
             sqlConexion.Close();
             sqlConexion.Dispose();
         }
-        
+
     }
 
 }
