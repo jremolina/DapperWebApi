@@ -1,8 +1,6 @@
-using System.Reflection.Metadata.Ecma335;
 using DapperWebApi.DTO;
 using DapperWebApi.Modelos;
 using DapperWebApi.Servicios;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DapperWebApi.Controllers
@@ -12,6 +10,9 @@ namespace DapperWebApi.Controllers
     public class EmpleadoController : ControllerBase
     {
         private readonly IServicioEmpleadosql _servicioEmpleado;
+
+        
+
         public EmpleadoController(IServicioEmpleadosql servicioEmpleado)
         {
             _servicioEmpleado = servicioEmpleado;

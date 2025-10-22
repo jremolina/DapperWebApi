@@ -12,10 +12,12 @@ namespace DapperWebApi.Servicios;
 public class ServicioEmpleadosql : IServicioEmpleadosql
 {
     private string CadenaConexion;
+    private ILogger<ServicioEmpleadosql> log;
 
-    public ServicioEmpleadosql(ConexionBaseDatos conex)
+    public ServicioEmpleadosql(ConexionBaseDatos conex, ILogger<ServicioEmpleadosql> logger)
     {
         CadenaConexion = conex.CadenaConexionSQL;
+        this.log = logger;
     }
     private SqlConnection conexion()
     {
@@ -42,6 +44,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         }
         catch (Exception ex)
         {
+            log.LogError("Error : " + ex.ToString());
             throw new Exception("se produjo un error al obtener empleado" + ex.Message);
         }
         finally
@@ -65,6 +68,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         }
         catch (Exception ex)
         {
+            log.LogError("Error : " + ex.ToString());
             throw new Exception("se produjo un error al obtener empleadoS" + ex.Message);
         }
         finally
@@ -93,6 +97,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         }
         catch (Exception ex)
         {
+            log.LogError("Error : " + ex.ToString());
             throw new Exception("se produjo un error al insertar el registro" + ex.Message);
         }
         finally
@@ -120,6 +125,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         }
         catch (Exception ex)
         {
+            log.LogError("Error : " + ex.ToString());
             throw new Exception("se produjo un error al modificar el registro" + ex.Message);
         }
         finally
@@ -142,6 +148,7 @@ public class ServicioEmpleadosql : IServicioEmpleadosql
         }
         catch (Exception ex)
         {
+            log.LogError("Error : " + ex.ToString());
             throw new Exception("se produjo un error al borrar  empleado" + ex.Message);
         }
         finally

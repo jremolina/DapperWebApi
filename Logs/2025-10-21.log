@@ -1,0 +1,765 @@
+2025-10-21 15:47:57.6448|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - -
+2025-10-21 15:47:57.6448|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" completed keep alive response.
+2025-10-21 15:47:57.6448|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 - text/html;charset=utf-8 4.5965ms
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUE" accepted.
+2025-10-21 15:47:57.6448|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUE" started.
+2025-10-21 15:47:57.6876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - -
+2025-10-21 15:47:57.6876|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-21 15:47:57.6876|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" completed keep alive response.
+2025-10-21 15:47:57.6876|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript;+charset=utf-8 0.3764ms
+2025-10-21 15:47:57.7339|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - -
+2025-10-21 15:47:57.7339|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:47:57.7339|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-21 15:47:57.7339|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:47:57.7339|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" completed keep alive response.
+2025-10-21 15:47:57.7339|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 2.1478ms
+2025-10-21 15:48:01.2098|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - -
+2025-10-21 15:48:01.2098|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:01.2098|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:48:01.2098|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:48:01.2098|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:48:01.2116|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:48:01.2116|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" completed keep alive response.
+2025-10-21 15:48:01.2116|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 - text/html;charset=utf-8 2.3541ms
+2025-10-21 15:48:01.2471|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - -
+2025-10-21 15:48:01.2471|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-21 15:48:01.2471|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" completed keep alive response.
+2025-10-21 15:48:01.2471|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript;+charset=utf-8 0.2655ms
+2025-10-21 15:48:01.2770|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - -
+2025-10-21 15:48:01.2770|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:01.2770|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-21 15:48:01.2770|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:48:01.2770|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" completed keep alive response.
+2025-10-21 15:48:01.2770|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 4.2135ms
+2025-10-21 15:48:09.0753|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-10-21 15:48:09.0753|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUE" disconnecting.
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUE" stopped.
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" disconnecting.
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSAGTUBUD" stopped.
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSAGTUBUD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSAGTUBUE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:48:09.0841|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2025-10-21 15:48:38.2920|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2025-10-21 15:48:38.3372|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-10-21 15:48:38.3444|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BlazorWasmHotReloadMiddleware|Middleware loaded
+2025-10-21 15:48:38.3444|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/aspnetcore-browser-refresh.js (16481 B).
+2025-10-21 15:48:38.3444|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Middleware loaded. Script /_framework/blazor-hotreload.js (799 B).
+2025-10-21 15:48:38.3730|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Middleware loaded: DOTNET_MODIFIABLE_ASSEMBLIES=debug, __ASPNETCORE_BROWSER_TOOLS=true
+2025-10-21 15:48:38.3903|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289
+2025-10-21 15:48:38.3903|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly DapperWebApi
+2025-10-21 15:48:38.3903|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-21 15:48:38.3903|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-10-21 15:48:38.3903|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-10-21 15:48:38.3903|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\DOCS\dev\Apis\DapperWebApi
+2025-10-21 15:48:38.3903|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2025-10-21 15:48:38.7226|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" accepted.
+2025-10-21 15:48:38.7226|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" accepted.
+2025-10-21 15:48:38.7226|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" started.
+2025-10-21 15:48:38.7226|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" started.
+2025-10-21 15:48:38.7774|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - -
+2025-10-21 15:48:38.7928|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2025-10-21 15:48:38.7928|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:38.8125|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:48:38.8125|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:48:38.9203|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:48:38.9307|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:48:38.9307|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" completed keep alive response.
+2025-10-21 15:48:38.9307|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 - text/html;charset=utf-8 158.8194ms
+2025-10-21 15:48:38.9663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - -
+2025-10-21 15:48:38.9663|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-21 15:48:38.9663|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" completed keep alive response.
+2025-10-21 15:48:38.9663|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript;+charset=utf-8 3.4562ms
+2025-10-21 15:48:39.0650|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - -
+2025-10-21 15:48:39.0650|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:39.0650|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-21 15:48:39.0650|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:48:39.1881|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" completed keep alive response.
+2025-10-21 15:48:39.1881|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 123.3977ms
+2025-10-21 15:48:45.2907|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/api/Empleado - - -
+2025-10-21 15:48:45.2907|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:45.2907|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Empleado'
+2025-10-21 15:48:45.2907|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)' with route pattern 'api/Empleado' is valid for the request path '/api/Empleado'
+2025-10-21 15:48:45.2907|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:48:45.2907|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-21 15:48:45.3066|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2025-10-21 15:48:45.3066|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2025-10-21 15:48:45.3066|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:48:45.3344|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmpleados", controller = "Empleado"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[DapperWebApi.DTO.EmpleadoDTO]] GetEmpleados() on controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi).
+2025-10-21 15:48:45.3344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2025-10-21 15:48:45.3344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2025-10-21 15:48:45.3344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-10-21 15:48:45.3344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2025-10-21 15:48:45.3344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-10-21 15:48:45.3391|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:48:45.3391|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:48:45.3391|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:45.3391|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:45.3391|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:45.3391|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:45.3391|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi) - Validation state: Valid
+2025-10-21 15:48:45.4667|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - -
+2025-10-21 15:48:45.4667|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:45.4667|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:48:45.4667|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:48:45.4667|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:48:45.4667|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:48:45.4667|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" completed keep alive response.
+2025-10-21 15:48:45.4667|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 - text/html;charset=utf-8 1.1386ms
+2025-10-21 15:48:45.4809|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSCR4792K" received FIN.
+2025-10-21 15:48:45.4809|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSCR4792K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:48:45.4809|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" disconnecting.
+2025-10-21 15:48:45.5090|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - -
+2025-10-21 15:48:45.5090|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-21 15:48:45.5090|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" completed keep alive response.
+2025-10-21 15:48:45.5090|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript;+charset=utf-8 0.5565ms
+2025-10-21 15:48:45.5518|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - -
+2025-10-21 15:48:45.5518|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:45.5518|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-21 15:48:45.5518|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:48:45.5518|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" completed keep alive response.
+2025-10-21 15:48:45.5518|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 7.4517ms
+2025-10-21 15:48:45.6745|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 317.3859ms.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-21 15:48:45.6745|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-10-21 15:48:45.6745|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-10-21 15:48:45.6745|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-10-21 15:48:45.6745|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-21 15:48:45.6745|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-21 15:48:45.6745|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-21 15:48:45.6745|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[DapperWebApi.Modelos.Empleado, DapperWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DapperWebApi.DTO.EmpleadoDTO, DapperWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:45.6745|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:45.6947|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi) in 352.6051ms
+2025-10-21 15:48:45.6947|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:48:45.6947|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/api/Empleado - 499 - application/json;+charset=utf-8 405.7253ms
+2025-10-21 15:48:45.6947|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792K" stopped.
+2025-10-21 15:48:57.9978|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/api/Empleado - - -
+2025-10-21 15:48:57.9978|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Empleado'
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)' with route pattern 'api/Empleado' is valid for the request path '/api/Empleado'
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:48:57.9978|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2025-10-21 15:48:57.9978|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:48:57.9978|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmpleados", controller = "Empleado"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[DapperWebApi.DTO.EmpleadoDTO]] GetEmpleados() on controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi).
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:48:57.9978|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:48:57.9978|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:57.9978|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:57.9978|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:57.9978|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:57.9978|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi) - Validation state: Valid
+2025-10-21 15:48:58.0034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.8589ms.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-21 15:48:58.0034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[DapperWebApi.Modelos.Empleado, DapperWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DapperWebApi.DTO.EmpleadoDTO, DapperWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:58.0034|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:48:58.0034|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi) in 6.3225ms
+2025-10-21 15:48:58.0034|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:48:58.0034|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" completed keep alive response.
+2025-10-21 15:48:58.0034|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/api/Empleado - 200 - application/json;+charset=utf-8 7.9643ms
+2025-10-21 15:49:21.6616|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:5289/api/Empleado - application/json 104
+2025-10-21 15:49:21.6616|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Empleado'
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)' with route pattern 'api/Empleado' is valid for the request path '/api/Empleado'
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:49:21.6616|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2025-10-21 15:49:21.6616|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:49:21.6616|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "PostEmpleado", controller = "Empleado"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DapperWebApi.DTO.EmpleadoDTO]] PostEmpleado(DapperWebApi.DTO.EmpleadoDTO) on controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi).
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:49:21.6616|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' ...
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' using the name '' in request data ...
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNGGSCR4792L", Request id "0HNGGSCR4792L:00000005": started reading request body.
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNGGSCR4792L", Request id "0HNGGSCR4792L:00000005": done reading request body.
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'DapperWebApi.DTO.EmpleadoDTO'
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' ...
+2025-10-21 15:49:21.6755|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:49:21.6755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:49:21.6755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:49:21.6755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:49:21.6755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:49:21.6755|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) - Validation state: Valid
+2025-10-21 15:49:21.6755|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) with arguments (DapperWebApi.DTO.EmpleadoDTO)
+2025-10-21 15:49:21.7401|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792M" accepted.
+2025-10-21 15:49:21.7401|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792M" started.
+2025-10-21 15:49:21.7418|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - -
+2025-10-21 15:49:21.7418|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792M" completed keep alive response.
+2025-10-21 15:49:21.7418|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 - text/html;charset=utf-8 1.4823ms
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSCR4792L" received FIN.
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSCR4792L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:49:21.7418|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" disconnecting.
+2025-10-21 15:49:21.7891|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - - -
+2025-10-21 15:49:21.7891|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserScriptMiddleware|Script injected: /_framework/aspnetcore-browser-refresh.js
+2025-10-21 15:49:21.7891|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792M" completed keep alive response.
+2025-10-21 15:49:21.7891|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/_framework/aspnetcore-browser-refresh.js - 200 16481 application/javascript;+charset=utf-8 0.3625ms
+2025-10-21 15:49:21.8323|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - - -
+2025-10-21 15:49:21.8323|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:49:21.8323|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-21 15:49:21.8323|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:49:21.8323|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792M" completed keep alive response.
+2025-10-21 15:49:21.8323|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 5.2198ms
+2025-10-21 15:49:22.1507|ERROR|DapperWebApi.Servicios.ServicioEmpleadosql|Error : Microsoft.Data.SqlClient.SqlException (0x80131904): Codigo de Empleado ya existe
+Violation of UNIQUE KEY constraint 'IX_Empleado'. Cannot insert duplicate key in object 'dbo.Empleado'. The duplicate key value is (E002).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__201_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at DapperWebApi.Servicios.ServicioEmpleadosql.CrearEmpleado(Empleado e) in C:\DOCS\dev\Apis\DapperWebApi\Servicios\ServicioEmpleadosql.cs:line 95
+ClientConnectionId:b674840e-421c-44e2-bf83-a525ded7e786
+Error Number:50000,State:1,Class:16
+2025-10-21 15:49:22.1522|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:49:22.1522|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:49:22.1522|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:49:22.1522|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:49:22.1522|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) in 480.7763ms
+2025-10-21 15:49:22.1522|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:49:22.1522|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2025-10-21 15:49:22.1706|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST http://localhost:5289/api/Empleado - 500 - text/plain;+charset=utf-8 508.9278ms
+2025-10-21 15:49:22.1706|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSCR4792L" stopped.
+2025-10-21 15:52:15.5124|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2025-10-21 15:52:15.5602|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2025-10-21 15:52:15.7215|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7144
+2025-10-21 15:52:15.7215|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5289
+2025-10-21 15:52:15.7215|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly DapperWebApi
+2025-10-21 15:52:15.7215|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-10-21 15:52:15.7215|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-10-21 15:52:15.7215|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-10-21 15:52:15.7758|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-10-21 15:52:15.7758|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2025-10-21 15:52:15.7758|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\DOCS\dev\Apis\DapperWebApi
+2025-10-21 15:52:15.7758|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2025-10-21 15:52:16.5268|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2NV" received FIN.
+2025-10-21 15:52:16.5268|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2NV" accepted.
+2025-10-21 15:52:16.5268|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2NV" started.
+2025-10-21 15:52:16.5565|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.
+2025-10-21 15:52:16.5565|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2NV" stopped.
+2025-10-21 15:52:16.5682|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2NV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:52:19.3655|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O0" accepted.
+2025-10-21 15:52:19.3655|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O0" started.
+2025-10-21 15:52:19.3919|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O0" received FIN.
+2025-10-21 15:52:19.4127|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O1" accepted.
+2025-10-21 15:52:19.4127|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O1" started.
+2025-10-21 15:52:19.4970|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.
+2025-10-21 15:52:19.4970|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O0" stopped.
+2025-10-21 15:52:19.4970|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:52:19.5981|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNGGSES1C2O1 established using the following protocol: Tls13
+2025-10-21 15:52:19.7216|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:19.7292|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:19.7292|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:19.7292|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:19.7292|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:19.7292|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" received HEADERS frame for stream ID 1 with length 527 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:19.7865|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:19.8082|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger - - -
+2025-10-21 15:52:20.0606|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2025-10-21 15:52:20.0606|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.0808|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2025-10-21 15:52:20.0815|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.0815|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" sending HEADERS frame for stream ID 1 with length 69 and flags END_STREAM, END_HEADERS.
+2025-10-21 15:52:20.0815|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger - 301 0 - 293.7361ms
+2025-10-21 15:52:20.1084|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O1" received FIN.
+2025-10-21 15:52:20.1084|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HNGGSES1C2O1 completed.
+2025-10-21 15:52:20.1156|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O2" accepted.
+2025-10-21 15:52:20.1156|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O2" started.
+2025-10-21 15:52:20.1156|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O1" is closed. The last processed stream ID was 1.
+2025-10-21 15:52:20.1156|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:52:20.1156|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O1" stopped.
+2025-10-21 15:52:20.1336|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNGGSES1C2O2 established using the following protocol: Tls13
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 1 with length 535 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:20.1336|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/index.html - - -
+2025-10-21 15:52:20.1336|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.1336|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:52:20.1336|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.2105|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2025-10-21 15:52:20.2105|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:52:20.2105|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 1 with length 66 and flags END_HEADERS.
+2025-10-21 15:52:20.2105|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 1 with length 4096 and flags NONE.
+2025-10-21 15:52:20.2330|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 1 with length 992 and flags NONE.
+2025-10-21 15:52:20.2330|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 1 with length 81 and flags NONE.
+2025-10-21 15:52:20.2330|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2025-10-21 15:52:20.2330|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:52:20.2330|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.2389|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/index.html - 200 - text/html;charset=utf-8 101.7017ms
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 3 with length 113 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 5 with length 58 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 7 with length 51 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.2901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/swagger-ui.css - - -
+2025-10-21 15:52:20.2901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/swagger-ui-bundle.js - - -
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.2901|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-10-21 15:52:20.2901|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.2901|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2025-10-21 15:52:20.2901|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 9 with length 52 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.2901|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - - -
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 9 with length 60 and flags END_HEADERS.
+2025-10-21 15:52:20.2901|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 9 with length 13760 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2025-10-21 15:52:20.3007|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript;+charset=utf-8 7.9262ms
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 9 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.3007|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/swagger-ui-standalone-preset.js - - -
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 11 with length 33 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.3007|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/_vs/browserLink - - -
+2025-10-21 15:52:20.3007|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-10-21 15:52:20.3007|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 3 with length 79 and flags END_HEADERS.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 5 with length 51 and flags END_HEADERS.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3007|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 7 with length 34 and flags END_HEADERS.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 12871 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 3 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/swagger-ui.css - 200 143943 text/css 37.8103ms
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3306|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 11 with length 149 and flags END_HEADERS.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 9986 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 11806 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 7 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.3953|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 101.1430ms
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.3953|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 10240 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 1806 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 105.6225ms
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 11 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4090|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4247|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4247|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4247|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.4247|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 16384 and flags NONE.
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 14801 and flags NONE.
+2025-10-21 15:52:20.7270|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 5 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.7270|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 438.6644ms
+2025-10-21 15:52:20.7270|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received WINDOW_UPDATE frame for stream ID 5 with length 4 and flags 0x0.
+2025-10-21 15:52:20.9185|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 13 with length 74 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.9185|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - - -
+2025-10-21 15:52:20.9185|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.9185|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2025-10-21 15:52:20.9185|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.9272|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 13 with length 35 and flags END_HEADERS.
+2025-10-21 15:52:20.9272|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 13 with length 5557 and flags NONE.
+2025-10-21 15:52:20.9272|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 13 with length 0 and flags END_STREAM.
+2025-10-21 15:52:20.9272|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 9.4816ms
+2025-10-21 15:52:20.9477|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" received HEADERS frame for stream ID 15 with length 97 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:20.9477|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/swagger/favicon-32x32.png - - -
+2025-10-21 15:52:20.9477|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:20.9477|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-10-21 15:52:20.9477|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:20.9477|TRACE|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Range header's value is empty.
+2025-10-21 15:52:20.9477|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-10-21 15:52:20.9477|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/swagger/favicon-32x32.png - 200 628 image/png 2.3722ms
+2025-10-21 15:52:20.9477|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending HEADERS frame for stream ID 15 with length 41 and flags END_HEADERS.
+2025-10-21 15:52:20.9477|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" sending DATA frame for stream ID 15 with length 628 and flags END_STREAM.
+2025-10-21 15:52:21.2846|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O2" received FIN.
+2025-10-21 15:52:21.2846|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O2" is closed. The last processed stream ID was 15.
+2025-10-21 15:52:21.2846|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:52:21.2846|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HNGGSES1C2O2 completed.
+2025-10-21 15:52:21.2846|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O2" stopped.
+2025-10-21 15:52:25.2478|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O3" accepted.
+2025-10-21 15:52:25.2478|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O3" started.
+2025-10-21 15:52:25.2961|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNGGSES1C2O3 established using the following protocol: Tls13
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" received HEADERS frame for stream ID 1 with length 432 and flags END_STREAM, END_HEADERS, PRIORITY.
+2025-10-21 15:52:25.2961|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7144/api/Empleado - - -
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:25.2961|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:25.3108|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Empleado'
+2025-10-21 15:52:25.3108|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)' with route pattern 'api/Empleado' is valid for the request path '/api/Empleado'
+2025-10-21 15:52:25.3108|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:52:25.3108|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-21 15:52:25.3108|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2025-10-21 15:52:25.3208|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:52:25.3567|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetEmpleados", controller = "Empleado"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[DapperWebApi.DTO.EmpleadoDTO]] GetEmpleados() on controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi).
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:52:25.3567|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:52:25.3567|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:25.3567|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:25.3567|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:25.3567|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:25.3567|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi) - Validation state: Valid
+2025-10-21 15:52:25.7826|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 407.9027ms.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:52:25.7826|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-21 15:52:25.7826|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2025-10-21 15:52:25.7826|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2025-10-21 15:52:25.7826|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2025-10-21 15:52:25.7826|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-10-21 15:52:25.7826|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2025-10-21 15:52:25.7826|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-10-21 15:52:25.7826|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[DapperWebApi.Modelos.Empleado, DapperWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DapperWebApi.DTO.EmpleadoDTO, DapperWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-10-21 15:52:25.7970|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2025-10-21 15:52:25.7970|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" sending HEADERS frame for stream ID 1 with length 74 and flags END_HEADERS.
+2025-10-21 15:52:25.7970|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:52:25.7970|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" sending DATA frame for stream ID 1 with length 160 and flags NONE.
+2025-10-21 15:52:25.7970|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2025-10-21 15:52:25.7970|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi) in 438.4253ms
+2025-10-21 15:52:25.7970|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DapperWebApi.Controllers.EmpleadoController.GetEmpleados (DapperWebApi)'
+2025-10-21 15:52:25.7970|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7144/api/Empleado - 200 - application/json;+charset=utf-8 504.7966ms
+2025-10-21 15:52:25.7970|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" sending DATA frame for stream ID 1 with length 0 and flags END_STREAM.
+2025-10-21 15:52:27.6419|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O3" received FIN.
+2025-10-21 15:52:27.6419|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O3" is closed. The last processed stream ID was 1.
+2025-10-21 15:52:27.6419|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:52:27.6419|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HNGGSES1C2O3 completed.
+2025-10-21 15:52:27.6435|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O3" stopped.
+2025-10-21 15:52:35.8876|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O4" accepted.
+2025-10-21 15:52:35.8876|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O4" started.
+2025-10-21 15:52:35.8954|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:5289/swagger/index.html - - -
+2025-10-21 15:52:35.8954|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:35.8954|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2025-10-21 15:52:35.8954|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2025-10-21 15:52:35.8954|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2025-10-21 15:52:35.8954|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2025-10-21 15:52:35.9102|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2025-10-21 15:52:35.9102|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2025-10-21 15:52:35.9102|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O4" completed keep alive response.
+2025-10-21 15:52:35.9102|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://localhost:5289/swagger/index.html - 200 - text/html;charset=utf-8 15.3736ms
+2025-10-21 15:52:35.9589|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O4" reset.
+2025-10-21 15:52:35.9589|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HNGGSES1C2O4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-10-21 15:52:35.9589|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O4" disconnecting.
+2025-10-21 15:52:35.9589|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O4" stopped.
+2025-10-21 15:52:51.3313|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O5" accepted.
+2025-10-21 15:52:51.3313|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HNGGSES1C2O5" started.
+2025-10-21 15:52:51.3313|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HNGGSES1C2O5 established using the following protocol: Tls13
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received SETTINGS frame for stream ID 0 with length 24 and flags NONE.
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received HEADERS frame for stream ID 1 with length 473 and flags END_HEADERS, PRIORITY.
+2025-10-21 15:52:51.3313|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/Empleado - application/json 95
+2025-10-21 15:52:51.3313|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Empleado'
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)' with route pattern 'api/Empleado' is valid for the request path '/api/Empleado'
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:52:51.3505|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2025-10-21 15:52:51.3505|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:52:51.3505|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received DATA frame for stream ID 1 with length 95 and flags END_STREAM.
+2025-10-21 15:52:51.3505|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received SETTINGS frame for stream ID 0 with length 0 and flags ACK.
+2025-10-21 15:52:51.3505|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "PostEmpleado", controller = "Empleado"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DapperWebApi.DTO.EmpleadoDTO]] PostEmpleado(DapperWebApi.DTO.EmpleadoDTO) on controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi).
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' ...
+2025-10-21 15:52:51.3505|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' using the name '' in request data ...
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNGGSES1C2O5", Request id "0HNGGSES1C2O5:00000001": started reading request body.
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNGGSES1C2O5", Request id "0HNGGSES1C2O5:00000001": done reading request body.
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'DapperWebApi.DTO.EmpleadoDTO'
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' ...
+2025-10-21 15:52:51.3650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:52:51.3650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:51.3650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:51.3650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:51.3650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:51.3650|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) - Validation state: Valid
+2025-10-21 15:52:51.3650|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) with arguments (DapperWebApi.DTO.EmpleadoDTO)
+2025-10-21 15:52:51.4348|ERROR|DapperWebApi.Servicios.ServicioEmpleadosql|Error : Microsoft.Data.SqlClient.SqlException (0x80131904): Codigo de Empleado ya existe
+Violation of UNIQUE KEY constraint 'IX_Empleado'. Cannot insert duplicate key in object 'dbo.Empleado'. The duplicate key value is (stri).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__201_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at DapperWebApi.Servicios.ServicioEmpleadosql.CrearEmpleado(Empleado e) in C:\DOCS\dev\Apis\DapperWebApi\Servicios\ServicioEmpleadosql.cs:line 95
+ClientConnectionId:61144527-c959-4800-a7e3-f4bed07ad037
+Error Number:50000,State:1,Class:16
+2025-10-21 15:52:51.4348|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:51.4348|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:52:51.4348|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:51.4348|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:52:51.4348|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) in 76.282ms
+2025-10-21 15:52:51.4348|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:52:51.4348|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2025-10-21 15:52:51.4348|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending HEADERS frame for stream ID 1 with length 68 and flags END_HEADERS.
+2025-10-21 15:52:51.4348|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/Empleado - 500 - text/plain;+charset=utf-8 98.2298ms
+2025-10-21 15:52:51.4348|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending DATA frame for stream ID 1 with length 3484 and flags END_STREAM.
+2025-10-21 15:53:01.6052|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received HEADERS frame for stream ID 3 with length 38 and flags END_HEADERS, PRIORITY.
+2025-10-21 15:53:01.6052|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received PING frame for stream ID 0 with length 8 and flags NONE.
+2025-10-21 15:53:01.6052|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending PING frame for stream ID 0 with length 8 and flags ACK.
+2025-10-21 15:53:01.6052|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7144/api/Empleado - application/json 104
+2025-10-21 15:53:01.6052|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Empleado'
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)' with route pattern 'api/Empleado' is valid for the request path '/api/Empleado'
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:53:01.6052|TRACE|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|The endpoint does not specify the IRequestSizeLimitMetadata.
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2025-10-21 15:53:01.6052|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:53:01.6052|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "PostEmpleado", controller = "Empleado"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DapperWebApi.DTO.EmpleadoDTO]] PostEmpleado(DapperWebApi.DTO.EmpleadoDTO) on controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi).
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller DapperWebApi.Controllers.EmpleadoController (DapperWebApi)
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' ...
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' using the name '' in request data ...
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-10-21 15:53:01.6052|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNGGSES1C2O5", Request id "0HNGGSES1C2O5:00000003": started reading request body.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received DATA frame for stream ID 3 with length 104 and flags END_STREAM.
+2025-10-21 15:53:01.6131|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HNGGSES1C2O5", Request id "0HNGGSES1C2O5:00000003": done reading request body.
+2025-10-21 15:53:01.6131|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'DapperWebApi.DTO.EmpleadoDTO'
+2025-10-21 15:53:01.6131|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:53:01.6131|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:53:01.6131|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO' ...
+2025-10-21 15:53:01.6131|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'e' of type 'DapperWebApi.DTO.EmpleadoDTO'.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:53:01.6131|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) - Validation state: Valid
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) with arguments (DapperWebApi.DTO.EmpleadoDTO)
+2025-10-21 15:53:01.6131|ERROR|DapperWebApi.Servicios.ServicioEmpleadosql|Error : Microsoft.Data.SqlClient.SqlException (0x80131904): Codigo de Empleado ya existe
+Violation of UNIQUE KEY constraint 'IX_Empleado'. Cannot insert duplicate key in object 'dbo.Empleado'. The duplicate key value is (E002).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__201_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at DapperWebApi.Servicios.ServicioEmpleadosql.CrearEmpleado(Empleado e) in C:\DOCS\dev\Apis\DapperWebApi\Servicios\ServicioEmpleadosql.cs:line 95
+ClientConnectionId:61144527-c959-4800-a7e3-f4bed07ad037
+Error Number:50000,State:1,Class:16
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2025-10-21 15:53:01.6131|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:53:01.6284|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2025-10-21 15:53:01.6284|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi) in 19.2412ms
+2025-10-21 15:53:01.6284|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'DapperWebApi.Controllers.EmpleadoController.PostEmpleado (DapperWebApi)'
+2025-10-21 15:53:01.6284|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.
+2025-10-21 15:53:01.6284|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7144/api/Empleado - 500 - text/plain;+charset=utf-8 26.3107ms
+2025-10-21 15:53:01.6284|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending HEADERS frame for stream ID 3 with length 34 and flags END_HEADERS.
+2025-10-21 15:53:01.6284|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" sending DATA frame for stream ID 3 with length 3485 and flags END_STREAM.
+2025-10-21 15:53:01.6469|TRACE|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HNGGSES1C2O5" received WINDOW_UPDATE frame for stream ID 0 with length 4 and flags 0x0.
+2025-10-21 15:55:03.1472|ERROR|DapperWebApi.Servicios.ServicioEmpleadosql|Error : Microsoft.Data.SqlClient.SqlException (0x80131904): Codigo de Empleado ya existe
+Violation of UNIQUE KEY constraint 'IX_Empleado'. Cannot insert duplicate key in object 'dbo.Empleado'. The duplicate key value is (stri).
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at Microsoft.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, Boolean isInternal, String endMethod)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<InternalExecuteReaderAsync>b__201_1(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.ExecuteScalarImplAsync[T](IDbConnection cnn, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 1241
+   at DapperWebApi.Servicios.ServicioEmpleadosql.CrearEmpleado(Empleado e) in C:\DOCS\dev\Apis\DapperWebApi\Servicios\ServicioEmpleadosql.cs:line 95
+ClientConnectionId:61144527-c959-4800-a7e3-f4bed07ad037
+Error Number:50000,State:1,Class:16
+2025-10-21 15:55:03.1521|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request.

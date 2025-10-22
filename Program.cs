@@ -1,14 +1,16 @@
 
-
+using NLog;
+using NLog.Web;
 using DapperWebApi;
 using DapperWebApi.Servicios;
+using System.Security.Principal;
 
 var builder = WebApplication.CreateBuilder(args);
 // IConfiguration Configuration;
 
 // Add services to the container.
 var config = builder.Configuration;
-var cadenaConexion = new ConexionBaseDatos(config.GetConnectionString("Conexion"));
+var cadenaConexion = new ConexionBaseDatos(config.GetConnectionString("Conexion")!);
 builder.Services.AddSingleton(cadenaConexion);
 
 
@@ -20,6 +22,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IServicioEmpleadosql, ServicioEmpleadosql>();
 
 
+builder.Host.UseNLog();
 
 
 var app = builder.Build();
